@@ -1,0 +1,256 @@
+/***** BASE STYLES *****/
+
+body{
+	background-color: #251F1F;
+	color: #251F1F;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+#portfolio{
+	height: 1550px;
+}
+
+#about{
+	height: 550px;
+}
+#contact{
+	height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+.third-width{
+	width: 400px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+
+/***** HEADER *****/
+
+header{
+	background-image: url(../img/hero.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 800px;
+}
+
+header h1{
+	color: #F1EEEF;
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin-left: -60px
+}
+
+nav{
+	float: right;
+	margin-right: -65px;
+}
+
+nav ul li{	
+	display:inline-block;
+}
+
+nav ul li a {
+	color:#F1EEEF;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 30px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+nav ul li .contact{
+	margin-left: -70px;
+}
+
+header h2{
+	color: #F1EEEF;
+	font-family: 'Bright Young Things', sans-serif;
+	font-size: 90px;
+	letter-spacing: 20px;
+	padding-top: 300px;
+}
+
+header h2 span{
+	color: #FFCD00;
+}
+
+
+/***** PORTFOLIO *****/
+
+#portfolio{
+	background: #43392D;
+	color: #f1eeef;
+}
+
+#portfolio .full-width{
+	padding: 15px 0 15px 0;
+}
+
+#portfolio .half-width{
+	padding: 50px 0 50px 0;
+}
+
+#portfolio h2{
+	color: #FFCD00;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	letter-spacing: 5px;
+	margin: 0 auto;
+	padding: 30px 0 50px 0;
+	text-align: center;
+}
+
+.jubilee-text{
+	clear: both;
+	padding-top: 16px;
+	text-align: right;
+}
+
+#portfolio img{
+	border: 2px solid #f1eeef;
+	height: 350px;
+	width: 550px;
+}
+
+#portfolio h3, #portfolio p{
+	font-size: 24px;
+	line-height: 32px;
+	width: 550px;
+}
+
+#portfolio h3 span{
+	font-weight: normal;
+}
+ 
+
+/***** ABOUT *****/
+
+#about{
+	background: #736C6B;
+}
+
+#about .full-width{
+	padding: 15px 0 15px 0; 
+}
+
+#about .hands{
+	padding-top: 26px;
+}
+
+#about h2{
+	color: #FFCD00;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	letter-spacing: 5px;
+	margin: 0 auto;
+	padding: 30px 0 30px 0;
+	text-align: center;
+}
+
+#about img{
+	border: 2px solid #f1eeef;
+	height: 300px;
+	width: 500px;
+}
+
+#about h3{
+	color: #0c0e0d;
+	font-size: 24px;
+}
+
+#about p{
+	color: #0c0e0d;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+/***** CONTACT *****/
+
+#contact{
+	background: #251F1F;
+	background-position: center;
+	background-size: contain;
+}
+
+#contact .full-width{
+	padding: 15px 0 15px 0;
+}
+
+#contact h2{
+	color: #FFCD00;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	letter-spacing: 5px;
+	margin: 0 auto;
+	padding: 30px 0 30px 0;
+	text-align: center;
+}
+
+#contact .third-width h3{
+	color: #f1eeef;
+	font-family: 'Nevis', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+	line-height: 60px;
+	margin: 0 auto;
+	padding-top: 75px;
+	text-align: center;
+}
+
+#contact a{
+	color: #f1eeef;
+	text-decoration: none;
+}
+
+#contact ul{
+	list-style: none;
+}
+
+#contact ul li{
+	display: inline-block;
+}
+
+#contact ul img{
+	padding-left: 50px;
+}
+
+#contact p{
+	color: #F1EEEF;
+	font-size: 24px;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/***** FOOTER *****/
+
+footer{
+	background-image: url('../img/yellow-key.jpg');
+	background-position: center;
+	background-size: cover;
+	padding: 20px 0 20px 0;
+}
+
+footer h4{
+	color: #F1EEEF;
+	letter-spacing: 3px;
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: center
+}
+
